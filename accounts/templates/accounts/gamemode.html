@@ -1,0 +1,135 @@
+{% include 'accounts/main.html' %}
+<head>
+    <title>gamemode</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/core.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+{% block content%}
+
+
+{% endblock %}
+
+  <a href="#" class="action-button shadow animate blue" onClick="location.href='signup.html'" >Host A Game</a>
+  <a href="#" class="action-button shadow animate red" onClick="location.href='roomspage.html'" >To Join A Random Game Find Room</a>
+
+
+<div class="clearfix">
+<form>
+    <ul>
+        <li>
+        <a href="#" class="action-button shadow animate green" onClick="location.href='enterroom.html'" > Enter Code To Join A Private Game</a>
+        </li>
+    </ul>
+</form>
+
+</div>
+</body>
+
+
+
+<head>
+  <title>creategame</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+
+</div>
+
+<style>
+
+body
+{
+	padding: 50px;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.blue
+{
+	background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+}
+
+.red
+{
+	background-color: #E74C3C;
+	border-bottom: 5px solid #BD3E31;
+	text-shadow: 0px -2px #BD3E31;
+}
+
+.green
+{
+	background-color: #82BF56;
+	border-bottom: 5px solid #669644;
+	text-shadow: 0px -2px #669644;
+}
+
+
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+</style>
+
+  </form>
+</div>
+
+
+
+</body>
+
+
+
+<div class ="photo">
+  <img class="img-responsive" src="https://www.clker.com/cliparts/7/c/c/a/11954236702123864810wine_gnu_s_rgio_luiz_ara_01.svg" alt="Cute Bottle Image" />
+</div>
+
+<style>
+  .photo{
+position:absolute;
+right:100px;
+top:40px;
+}
+</style>
+</body>
+
